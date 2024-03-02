@@ -1,0 +1,12 @@
+p {
+    letter-spacing: 1px; /* Menambahkan jarak 1 piksel antar karakter */
+  }
+  
+  h1 {
+    letter-spacing: 0.2em; /* Menambahkan jarak 0.2 em antar karakter */
+  }
+  
+  span {
+    letter-spacing: 0.1em; /* Menambahkan jarak 0.1 em antar karakter */
+  }
+  

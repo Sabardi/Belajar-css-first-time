@@ -1,0 +1,17 @@
+.container {
+    text-align: center; /* Teks diperatakan di tengah */
+  }
+  
+  .left-align {
+    text-align: left; /* Teks diperatakan ke kiri */
+  }
+  
+  .right-align {
+    text-align: right; /* Teks diperatakan ke kanan */
+  }
+  
+  .justify-align {
+    text-align: justify; /* Teks diperatakan rata kiri dan kanan */
+  }
+  
+  
