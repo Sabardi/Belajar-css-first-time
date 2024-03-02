@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.warna{
+    color: red;
+}
+
+.heksa{
+    color: #FFA500; /* Orange */
+}
+
+.rgb{
+    color: rgb(100, 150, 90); /* Merah */
+}
+
+.rgba{
+    color: rgba(255, 0, 0, 0.5); /* Merah dengan 50% transparansi */
+}
+.hsl{
+    color: hsl(0, 100%, 50%); /* Merah */
+}
+
+.hsla{
+    color: hsla(0, 100%, 50%, 0.5); /* Merah dengan 50% transparansi */
+}

@@ -1,0 +1,21 @@
+body{
+    /*memanggil gambar nya  */
+    background-image: url('silibus_belajar_css.jpg');
+    /* agar ukuran nya berubah */
+    background-size: cover; 
+    background-size: 100px; 
+    /* gambar nya tidak  di ulang ulang / ke kiri / kebawah */
+    /* mengatur posisi nya */
+    background-position: center right;
+    background-repeat: repeat;
+}
+.bg{
+margin: 0;
+padding: 100px;
+background-color:yellow;
+}
+p{
+    background-image: url('silibus_belajar_css.jpg');
+    background-size: 100px;
+    background-repeat:space ;
+}

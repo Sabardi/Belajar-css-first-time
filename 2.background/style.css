@@ -1,0 +1,82 @@
+/* Mengatur warna latar belakang */
+body {
+    /* Mengatur warna latar belakang. */
+    background-color: lightblue; 
+}
+
+/* Mengatur gambar latar belakang */
+.container {
+    /* Mengatur gambar latar belakang */
+    background-image: url('background.jpg');
+}
+
+/* Mengatur pengulangan gambar latar belakang */
+.header {
+    background-image: url('header-bg.png');
+
+    /* Mengatur apakah gambar latar belakang diulang dan bagaimana cara diulangnya (repeat, repeat-x, repeat-y, no-repeat).
+ */
+ /* Gambar latar belakang diulang secara horizontal dan vertikal */
+    background-repeat: repeat; 
+    /*Gambar diulang hanya secara horizontal*/
+    background-repeat: repeat-x; 
+    /*Gambar diulang hanya secara vertikal*/
+    background-repeat: repeat-y; 
+    /*Gambar diulang hanya secara horizontal*/
+    background-repeat: no-repeat; 
+}
+
+/* Mengatur posisi gambar latar belakang */
+.section {
+    background-image: url('section-bg.jpg');
+    /* Nilai: Koordinat posisi gambar latar belakang, seperti "top", "bottom", "center", "left", "right", atau menggunakan nilai dalam satuan seperti piksel atau persen.
+ */
+ background-position: center top; /* Gambar berada di tengah bagian atas elemen */
+ /* Nilai Horizontal: */
+ /* Gambar ditempatkan di sebelah kiri elemen.*/
+ background-position: left;
+ /* Gambar ditempatkan di tengah horizontal elemen */
+ background-position: center;
+ /* Gambar ditempatkan di sebelah kanan elemen. */
+ background-position: right;
+ /* Gambar ditempatkan sejauh nilai tertentu dari kiri elemen. Misalnya */
+ background-position: '100px';
+ background-position: '25%';
+
+ /* nilai horizontal  */
+ /* Gambar ditempatkan di bagian atas elemen. */
+ background-position: top;
+ /* Gambar ditempatkan di tengah vertikal elemen. */
+ background-position: center;
+ /* Gambar ditempatkan di bagian bawah elemen. */
+ background-position: bottom;
+ /* Gambar ditempatkan sejauh nilai tertentu dari kiri elemen. Misalnya */
+ background-position: '100px';
+ background-position: '25%';
+}
+
+/* Mengatur efek transparansi pada latar belakang */
+.footer {
+    background-color: rgba(0, 0, 0, 0.5); /* Hitam dengan transparansi 50% */
+}
+
+/* mengatur ukuran */
+.bg-size{
+    /* Ukuran asli dari gambar latar belakang akan dipertahankan. Gambar akan ditampilkan dengan ukuran aslinya tanpa perubahan. */
+    background-size: auto;
+    /* Gambar latar belakang akan diperbesar atau diperkecil secara proporsional sehingga seluruh area latar belakang tercakupi (tanpa mengubah proporsi aslinya). Ini berarti gambar akan ditampilkan dengan ukuran yang cukup besar sehingga setidaknya satu dimensi dari gambar akan mengisi seluruh area latar belakang, dan gambar mungkin memotong di sisi lainnya. */
+    background-size: cover;
+    /* Gambar latar belakang akan diperbesar atau diperkecil secara proporsional sehingga seluruh gambar masuk ke dalam area latar belakang. Ini berarti seluruh gambar akan terlihat di dalam area latar belakang, tanpa potongan, dan mungkin akan meninggalkan ruang kosong di sekitarnya, tergantung pada proporsi gambar dan ukuran latar belakang */
+    background-size: contain;
+}
+
+/* gambar latar belakang akan tetap diam atau bergeser bersamaan dengan konten ketika pengguna menggulir halaman. */
+.background-attachment{
+    /* Gambar latar belakang akan bergeser bersamaan dengan konten ketika pengguna menggulir halaman. Ini adalah nilai defaultnya. */
+    background-attachment: scroll;
+    /* Gambar latar belakang akan tetap diam relatif terhadap viewport (jendela browser), sehingga ketika pengguna menggulir halaman, gambar tersebut akan tetap berada di lokasi yang sama di layar. Ini menciptakan efek bahwa gambar latar belakang akan tampak seperti tertempel di latar belakang, menjadikannya ideal untuk efek parallax dan elemen latar belakang yang tetap di tempat. */
+    background-attachment: fixed;
+
+
+    /* background-attachment: fixed; diterapkan pada elemen dengan kelas .header, sehingga gambar latar belakangnya akan tetap diam relatif terhadap viewport saat pengguna menggulir halaman. */
+}
