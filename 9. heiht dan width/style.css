@@ -1,0 +1,5 @@
+.container {
+    height: 200px; /* Menetapkan tinggi elemen menjadi 200 piksel */
+    background-color: red;
+    width: 200px;
+}
