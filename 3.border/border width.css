@@ -1,0 +1,15 @@
+/* border-width dalam CSS digunakan untuk menetapkan ketebalan (lebar) dari border pada elemen HTML. Properti ini memungkinkan Anda untuk menentukan lebar border secara spesifik dalam satuan piksel atau menggunakan nilai relatif seperti thin, medium, atau thick. */
+.border{
+    border-width: 2px;
+    /* Nilai relatif seperti thin, medium, atau thick, misalnya: */
+    border-width: thin;
+    /* Nilai tunggal atau empat nilai yang memungkinkan untuk menetapkan ketebalan secara terpisah untuk setiap sisi border (atas, kanan, bawah, kiri), misalnya: */
+    border-width: 2px 1px 3px 4px; /* Atas, Kanan, Bawah, Kiri */
+    /* Nilai dua atau tiga nilai yang memungkinkan untuk menetapkan ketebalan secara berurutan untuk sisi atas, kanan-kiri, dan bawah, misalnya */
+    border-width: 2px 1px 3px; /* Atas, Kanan-Kiri, Bawah */
+
+}
+.border1{
+    border-width: 10px;
+    border-style: dotted;
+}

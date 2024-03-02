@@ -1,0 +1,1 @@
+Properti border dalam CSS digunakan untuk menetapkan garis batas (border) pada elemen HTML. Ini memberikan kemampuan untuk menentukan warna, ketebalan, dan gaya dari garis batas tersebut.

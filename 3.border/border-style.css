@@ -1,0 +1,39 @@
+/* Properti ini menetapkan gaya (solid, dashed, dotted, double, dll.) dari border */
+
+.border-style {
+    /* property dan valu nya  */
+    /* none: Tidak ada border. Elemen tidak akan memiliki garis batas. */
+    border-style: none;
+
+    /* hidden: Sama seperti none, tetapi digunakan untuk memastikan bahwa elemen memiliki ruang untuk border, bahkan jika tidak ada yang terlihat. */
+    border-style: hidden;
+    
+    /* dotted: Border berupa titik-titik. */
+    border-style: dotted
+    ;
+    /* dashed: Border berupa garis putus-putus. */
+    border-style: dashed;
+
+    /* solid: Border berupa garis lurus dan massif. */
+    border-style: solid;
+    
+    /* double: Border berupa dua garis paralel. */
+    border-style: double;
+    
+    /* groove: Border berupa 3D seperti alur. */
+    border-style: groove;
+
+    /* ridge: Border berupa 3D seperti jajaran genjang. */
+        border-style: ridge;
+
+    /* inset: Border terlihat seperti ditekan ke dalam bidang halaman. */
+    border-style: inset;
+
+    /* outset: Border terlihat seperti menonjol keluar dari bidang halaman. */
+    border-style: outset;
+}
+.border-style1{ 
+    border-color: black;
+    border-width: 20px;
+    border-style: ridge;
+}
