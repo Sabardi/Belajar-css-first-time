@@ -1,0 +1,57 @@
+
+.div{
+    margin-bottom: 500px;
+}
+/* Elemen ditampilkan sebagai blok, dimulai pada baris baru, dan mengisi lebar yang tersedia dari elemen induknya. */
+.block-element {
+    display: block;
+    width: 200px;
+    height: 100px;
+    background-color: #ccc;
+    margin-bottom: 10px;
+}
+
+/* Elemen ditampilkan dalam satu baris tanpa memaksa baris baru. Lebar dan tinggi elemen hanya sebesar konten di dalamnya. */
+.inline-element {
+    display: inline;
+    background-color: #f00;
+    color: #fff;
+    padding: 5px 10px;
+    margin-right: 30px;
+}
+
+/* Elemen ditampilkan sebagai blok, tetapi tetap berada dalam satu baris seperti elemen inline.
+ Ini memungkinkan untuk menetapkan lebar dan tinggi pada elemen, serta menambahkan padding dan margin. */
+ /* Contoh: <div> (ketika ingin ditampilkan dalam satu baris), <img>, <input>, dll. */
+.inline-block-element {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #0ff;
+    margin-right: 20px;
+}
+
+/* Elemen menggunakan model tata letak flexbox. Ini memungkinkan untuk mengatur posisi dan penataan elemen anak secara fleksibel dalam satu dimensi atau dua dimensi. */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-item {
+    width: 100px;
+    height: 100px;
+    background-color: #ff0;
+    margin-right: 20px;
+}
+
+
+/* Elemen menggunakan model tata letak grid. Dengan properti ini, Anda dapat menetapkan elemen-elemen ke dalam grid dua dimensi, dengan baris dan kolom yang dapat dikonfigurasi secara fleksibel. */
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-gap: 10px;
+}
+.grid-item {
+    width: 100px;
+    height: 100px;
+    background-color: #0f0;
+}
