@@ -1,0 +1,19 @@
+.container {
+    width: 100%;
+    overflow: hidden; 
+    /* Menangani kehilangan tinggi pada elemen induk */
+}
+.left-column {
+    float: left;
+    width: 70%; /* Lebar kolom kiri */
+    background-color: #f2f2f2;
+    padding: 20px;
+    box-sizing: border-box; /* Memasukkan padding ke dalam lebar elemen */
+}
+.right-column {
+    float: right;
+    width: 70%; /* Lebar kolom kanan */
+    background-color: #e0e0e0;
+    padding: 20px;
+    box-sizing: border-box; /* Memasukkan padding ke dalam lebar elemen */
+}
