@@ -1,0 +1,59 @@
+
+/* Ini adalah nilai default dari position.
+Elemen akan ditempatkan sesuai dengan alur normal dokumen HTML.
+Properti top, right, bottom, dan left tidak memiliki efek pada elemen dengan position: static;. */
+.static-position {
+    background-color: #ccc;
+    width: 200px;
+    height: 100px;
+}
+
+/* Elemen tetap dalam alur dokumen normal, tetapi memiliki konteks posisi tambahan.
+Properti top, right, bottom, dan left akan memindahkan elemen dari posisinya yang normal, tetapi elemen akan tetap menempati ruang aslinya dalam dokumen, sehingga elemen lain tidak akan bergeser untuk mengisi ruang yang ditinggalkannya. */
+.relative-position {
+    position: relative;
+    background-color: #f00;
+    width: 200px;
+    height: 100px;
+    top: 10px;
+    left: 200px;
+}
+
+/* Elemen dihapus dari alur dokumen normal dan ditempatkan relatif terhadap elemen induk yang memiliki position yang tidak static, atau jika tidak ada, terhadap elemen <body>.
+Properti top, right, bottom, dan left menentukan posisi elemen relatif terhadap elemen induknya yang memiliki position yang tidak static. */
+.absolute-position {
+    position: absolute;
+    background-color: #0f0;
+    width: 200px;
+    height: 100px;
+    bottom: 100px;
+    left: 500px;
+}
+
+
+/* Elemen dihapus dari alur dokumen normal dan ditempatkan relatif terhadap elemen induk yang memiliki position yang tidak static, atau jika tidak ada, terhadap elemen <body>.
+Properti top, right, bottom, dan left menentukan posisi elemen relatif terhadap elemen induknya yang memiliki position yang tidak static. */
+.fixed-position {
+    position: fixed;
+    background-color: #00f;
+    width: 200px;
+    height: 100px;
+    top: 20px;
+    right: 20px;
+}
+
+
+/* Elemen berperilaku seperti position: relative; sampai titik tertentu kemudian berperilaku seperti position: fixed; saat mencapai batas tertentu pada viewport saat digulir.
+Ini bergantung pada konteks posisinya, seperti elemen induk yang memiliki overflow yang diatur ke nilai selain visible.
+Properti top, right, bottom, dan left dapat digunakan untuk menyesuaikan perilaku elemen saat 'menempel'. */
+.sticky-position {
+    position: sticky;
+    background-color: #ff0;
+    width: 200px;
+    height: 100px;
+    top: 20px;
+}
+.container {
+    height: 2000px;
+    background-color: #eee;
+}
