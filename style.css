@@ -16,7 +16,11 @@ body{
     align-items: center;
     flex-direction: column;
     text-align: center;
-    margin: 20px auto;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    margin: auto;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .heading h1{
@@ -108,6 +112,8 @@ body{
     /* CSS rules for screens smaller than or equal to 768 pixels wide */
     .heading{
         padding: 0 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
     .heading h1{
         font-size: 36px;
