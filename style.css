@@ -101,9 +101,7 @@ body{
 }
 
 /* untuk di buka di android */
-/* @media screen and {
-    
-} */
+
 @media screen and (max-width: 768px) {
     .heading{
         padding: 0 20px;
